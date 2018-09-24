@@ -57,6 +57,7 @@ tide:
     - knative/test-infra
     - knative/pkg
     - knative/caching
+    - grantr/prow-testing
     labels:
     - lgtm
     - approved

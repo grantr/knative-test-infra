@@ -17,9 +17,35 @@ approve:
   - knative
   implicit_self_approve: true
   review_acts_as_approve: false
+- repos:
+  - grantr
+  review_acts_as_approve: true
+  implicit_self_approve: true
+  lgtm_acts_as_approve: false
 
 plugins:
   knative:
+  - approve
+  - assign
+  - blunderbuss
+  - buildifier
+  - cat
+  - dog
+  - golint
+  - heart
+  - help
+  - hold
+  - label
+  - lgtm
+  - lifecycle
+  - shrug
+  - size
+  - skip
+  - trigger
+  - wip
+  - yuks
+
+  grantr:
   - approve
   - assign
   - blunderbuss
