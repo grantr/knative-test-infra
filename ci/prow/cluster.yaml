@@ -87,7 +87,7 @@ spec:
       terminationGracePeriodSeconds: 180
       containers:
       - name: hook
-        image: gcr.io/knative-tests/test-infra/prow/hook:v20180925-d6542aa96
+        image: gcr.io/knative-tests/test-infra/prow/hook:v20180925-b2fef2e89
         imagePullPolicy: Always
         args:
         - --dry-run=false
